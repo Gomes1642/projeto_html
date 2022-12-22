@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: gainsboro;
     margin: 0;
     padding: 0;
     
@@ -15,31 +15,9 @@ body{
 
 .nav-list{
     display: flex;
-    align-items:center;
     list-style: none;
-    
-    
-   
-    
-    
-}
 
-.service{
-    margin-right: 35px;
-    
-        
-}
-
-.clientes{
-    margin-right: 35px;
-}
-
-.parceiros{
-    margin-right: 35px;
-}
-
-.contatos{
-    margin-right: 35px;
+       
 }
 
 .logo{
@@ -56,44 +34,61 @@ a{
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+    margin: 15px;
     
     
+}
+.card .user{
+   width: 160px;
+   height: 140px; 
+   border-radius: 50%;
+
+}
+.star{
+    width: 23px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: royalblue;
+    font-size: 30px;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px ;
 }
 
 .card{
-    width: 300px;
-    height: 500px;
-    background-color: gainsboro;
-    border-radius: 15px;
-    margin-top:100px;
-    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
-}
-
-.container{
+    background-color: gray;
     display: flex;
-    justify-content: center;
-
-}
-
-
-.cliente01{
-    width: 180px;
-    height: 165px;
-    border-radius: 50%;
-    margin-top: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.705);
+    border-radius: 15px;
+    
+    
 }
 
 h2{
-    margin-left: 52px;
-    font-family:'Poppins', sem serifa;
+    color: royalblue;
 }
 
 h3{
-    margin-left: 50px;
-    font-family:'Poppins', sem serifa;
+    font-size: 27px;
+}
+
+p{
+   text-align: center; 
+   font-size: 17px;
 }
 
 
