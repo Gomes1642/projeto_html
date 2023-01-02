@@ -4,6 +4,7 @@
     
     box-sizing:border-box;
    
+   
 }
 
 
@@ -11,6 +12,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: gainsboro;
+    
     
     
      
@@ -21,8 +23,7 @@ body{
     justify-content: space-around;
     background-image: url("../img/img_back.jpg") ;
     background-size: cover;
-    position: fixed;
-    top:0;
+    margin-bottom: -65px;
     left:0;
     width: 100%;
    
@@ -70,10 +71,10 @@ section .content .image img{
     
     
   }
-  
+
 
   .content{
-    position: relative;
+   position: relative;
     background-color: #fff;
     border-radius: 20px;
     margin: 20px 0 0;
@@ -113,6 +114,7 @@ section .content .image img{
     
     
     
+    
 }
 
 
@@ -132,6 +134,7 @@ font-size: 20;
     max-width: 620px;
     margin: 0 auto;
     grid-gap: 40px ;
+    
      
   }
 
@@ -286,4 +289,13 @@ button:hover{
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.card:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
 }
