@@ -374,11 +374,11 @@ form button:hover{
  }
  .text{
      font-size: 45px;
-     color: #f5f5f5;
+     color: rgb(163, 207, 207);
      margin-bottom: 30px;
  }
  .paragrafo{
-     color: #f5f5f5;
+     color: rgb(163, 207, 207);
      margin-bottom: 50px;
  }
  .btn{
@@ -386,6 +386,7 @@ form button:hover{
      background: #f5f5f5;
      text-decoration: none;
      color: #101026;
+     background-image: url("../img/img_back.jpg");
      font-size: 18px;
      transition: all 0.5s;
      
